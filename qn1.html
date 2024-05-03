@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Logo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .letter-container {
+            display: flex;
+            align-items: center;
+            flex-direction: row; /* Adjusted flex direction to horizontal */
+            position: relative;
+        }
+
+        .letter {
+            font-size: 60px;
+            font-weight: bold;
+            margin: 5px;
+        }
+
+        .G {
+            color: #4285F4;
+        }
+
+        .O {
+            color: #EA4335;
+        }
+
+        .L {
+            color: #FBBC05;
+        }
+
+        .E {
+            color: #34A853;
+        }
+
+        .fieldset {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: fit-content; /* Adjusted width to fit content */
+            margin: 20px auto;
+            position: relative;
+            text-align: center; /* Center the content */
+        }
+
+        .buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #f2f2f2;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0 5px;
+        }
+
+        .button:hover {
+            background-color: #ccc;
+        }
+
+        #box {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+
+        .india {
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <fieldset class="fieldset">
+        
+        <div class="letter-container">
+            <div class="letter G">G</div>
+            <div class="letter O">o</div>
+            <div class="letter O">o</div>
+            <div class="letter G">g</div>
+            <div class="letter L">l</div>
+            <div class="letter E">e</div>
+        </div>
+        <span class="india">India</span>
+        <div class="buttons">
+            <input type="text" name="box" id="box" ><br>
+            <button class="button">Google Search</button>
+            <button class="button">I'm Feeling Lucky</button>
+        </div>
+    </fieldset>
+</body>
+</html>
